@@ -24,4 +24,4 @@ jobs:
       - name: Build
         run: |
           docker login
-          docker build --platform linux/amd64,linux/arm64 --tag cm0x4d/ubuntu-qt5-cmake:$GITHUB_REF_NAME --tag cm0x4d/ubuntu-qt5-cmake:latest --push .
+          docker build --platform linux/amd64,linux/arm64 --tag cm0x4d/ubuntu-qt5-cmake:$GITHUB_REF_NAME --push .
